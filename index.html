@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Wedding · శుభలేఖ</title>
+  <meta name="description" content="Join us as we celebrate our Telugu wedding. Livestream, schedule, and photos." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Mukta:wght@300;400;500;600&family=Tiro+Telugu&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="css/styles.css?v=3" />
+</head>
+<body>
+  <!-- Decorative banana leaves on either side -->
+  <div class="leaf leaf--left" aria-hidden="true">
+    <svg viewBox="0 0 200 760" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="leafGrad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#3f7d3a"/>
+          <stop offset="0.55" stop-color="#5aa152"/>
+          <stop offset="1" stop-color="#8ec97f"/>
+        </linearGradient>
+      </defs>
+      <g>
+        <!-- leaf blade -->
+        <path d="M150 10 C 40 120, 10 320, 30 520 C 45 660, 95 730, 150 750 C 140 520, 142 260, 150 10 Z" fill="url(#leafGrad)"/>
+        <path d="M150 10 C 178 200, 178 540, 150 750 C 168 700, 188 600, 192 470 C 198 300, 184 140, 150 10 Z" fill="url(#leafGrad)" opacity="0.85"/>
+        <!-- midrib -->
+        <path d="M150 18 C 146 260, 146 510, 150 745" fill="none" stroke="#2f5f2b" stroke-width="3" stroke-linecap="round"/>
+        <!-- veins (left blade) -->
+        <g stroke="#2f5f2b" stroke-width="1.4" opacity="0.5" fill="none">
+          <path d="M149 70 C 110 96, 80 130, 62 175"/>
+          <path d="M149 150 C 105 178, 72 215, 52 270"/>
+          <path d="M149 240 C 102 268, 66 308, 44 372"/>
+          <path d="M149 340 C 100 368, 62 408, 42 470"/>
+          <path d="M149 440 C 102 466, 70 502, 54 558"/>
+          <path d="M149 540 C 108 562, 82 596, 70 640"/>
+        </g>
+        <!-- veins (right blade) -->
+        <g stroke="#2f5f2b" stroke-width="1.2" opacity="0.4" fill="none">
+          <path d="M151 90 C 172 120, 182 165, 184 215"/>
+          <path d="M151 200 C 174 235, 186 290, 186 350"/>
+          <path d="M151 320 C 174 358, 184 420, 180 480"/>
+          <path d="M151 450 C 172 488, 180 545, 172 600"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="leaf leaf--right" aria-hidden="true">
+    <svg viewBox="0 0 200 760" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="leafGradR" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="#3f7d3a"/>
+          <stop offset="0.55" stop-color="#5aa152"/>
+          <stop offset="1" stop-color="#8ec97f"/>
+        </linearGradient>
+      </defs>
+      <g>
+        <path d="M150 10 C 40 120, 10 320, 30 520 C 45 660, 95 730, 150 750 C 140 520, 142 260, 150 10 Z" fill="url(#leafGradR)"/>
+        <path d="M150 10 C 178 200, 178 540, 150 750 C 168 700, 188 600, 192 470 C 198 300, 184 140, 150 10 Z" fill="url(#leafGradR)" opacity="0.85"/>
+        <path d="M150 18 C 146 260, 146 510, 150 745" fill="none" stroke="#2f5f2b" stroke-width="3" stroke-linecap="round"/>
+        <g stroke="#2f5f2b" stroke-width="1.4" opacity="0.5" fill="none">
+          <path d="M149 70 C 110 96, 80 130, 62 175"/>
+          <path d="M149 150 C 105 178, 72 215, 52 270"/>
+          <path d="M149 240 C 102 268, 66 308, 44 372"/>
+          <path d="M149 340 C 100 368, 62 408, 42 470"/>
+          <path d="M149 440 C 102 466, 70 502, 54 558"/>
+          <path d="M149 540 C 108 562, 82 596, 70 640"/>
+        </g>
+        <g stroke="#2f5f2b" stroke-width="1.2" opacity="0.4" fill="none">
+          <path d="M151 90 C 172 120, 182 165, 184 215"/>
+          <path d="M151 200 C 174 235, 186 290, 186 350"/>
+          <path d="M151 320 C 174 358, 184 420, 180 480"/>
+          <path d="M151 450 C 172 488, 180 545, 172 600"/>
+        </g>
+      </g>
+    </svg>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <a class="nav__brand" href="#top">శుభం</a>
+    <nav class="nav__links">
+      <a href="#live">Livestream</a>
+      <a href="#schedule">Schedule</a>
+      <!-- <a href="#gallery">Gallery</a> -->
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="top">
+    <div class="hero__inner">
+      <figure class="hero__photo">
+        <img src="images/hero-feature.jpg" alt="The couple in traditional Telugu attire" />
+      </figure>
+      <p class="hero__pretext">Together with their families</p>
+      <h1 class="hero__names">
+        <!-- EDIT: Replace with the couple's names -->
+        <span>Manogna</span>
+        <span class="hero__amp">&amp;</span>
+        <span>Kartik</span>
+      </h1>
+      <p class="hero__telugu">వివాహ శుభలేఖ</p>
+      <div class="hero__divider" aria-hidden="true">
+        <span></span><svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2c1.5 3 4 4.5 7 5-3 .5-5.5 2-7 5-1.5-3-4-4.5-7-5 3-.5 5.5-2 7-5z" fill="currentColor"/></svg><span></span>
+      </div>
+      <p class="hero__date">June 21 - 26, 2026 · Machilipatnam and Hyderabad, India</p>
+      <a class="btn btn--solid" href="#live">Watch the Livestream</a>
+    </div>
+  </section>
+
+  <!-- Livestream -->
+  <section class="section live" id="live">
+    <div class="section__head">
+      <p class="section__kicker">Join us from anywhere</p>
+      <h2 class="section__title">Live on YouTube</h2>
+      <p class="section__sub">
+        Couldn't make it in person? Celebrate with us virtually. The live stream
+        link will appear here closer to the wedding day.
+      </p>
+    </div>
+
+    <div class="live__frame">
+      <!-- EDIT: When the YouTube live link is ready, paste the embed URL into the
+           iframe's src below and remove the "live__placeholder" block. Example:
+           <iframe src="https://www.youtube.com/embed/LIVE_VIDEO_ID" ...></iframe> -->
+      <div class="live__placeholder">
+        <svg viewBox="0 0 24 24" width="64" height="64" aria-hidden="true">
+          <path d="M23 7a3 3 0 0 0-2.1-2.1C19 4.4 12 4.4 12 4.4s-7 0-8.9.5A3 3 0 0 0 1 7C.5 8.9.5 12 .5 12s0 3.1.5 5a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5A3 3 0 0 0 23 17c.5-1.9.5-5 .5-5s0-3.1-.5-5z" fill="currentColor"/>
+          <path d="M9.6 15.6V8.4l6.2 3.6-6.2 3.6z" fill="#fff"/>
+        </svg>
+        <p class="live__placeholder-title">Live stream coming soon</p>
+        <p class="live__placeholder-text">Check back on June 24 for the muhurtam broadcast.</p>
+      </div>
+    </div>
+    <p class="live__note">Tip: bookmark this page — the player will go live automatically once the link is added.</p>
+  </section>
+
+  <!-- Schedule -->
+  <section class="section schedule" id="schedule">
+    <div class="section__head">
+      <p class="section__kicker">Five days of celebration</p>
+      <h2 class="section__title">Schedule of Events</h2>
+      <p class="section__sub">All times listed in IST, with Pacific (PT) and Eastern (ET) times for our guests abroad.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="event">
+        <div class="event__date">
+          <span class="event__day">Sun</span>
+          <span class="event__num">21</span>
+          <span class="event__mon">June</span>
+        </div>
+        <div class="event__body">
+          <h3 class="event__name">Mehendi</h3>
+          <p class="event__desc">Henna, music, and the gentle start to our celebrations.</p>
+          <ul class="event__times">
+            <li><span>IST</span> Sun, Jun 21 · 5:00 PM</li>
+            <li><span>PT</span> Sun, Jun 21 · 4:30 AM</li>
+            <li><span>ET</span> Sun, Jun 21 · 7:30 AM</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="event">
+        <div class="event__date">
+          <span class="event__day">Mon</span>
+          <span class="event__num">22</span>
+          <span class="event__mon">June</span>
+        </div>
+        <div class="event__body">
+          <h3 class="event__name">Haldi</h3>
+          <p class="event__desc">A morning of turmeric, blessings, and golden glow.</p>
+          <ul class="event__times">
+            <li><span>IST</span> Mon, Jun 22 · 10:00 AM</li>
+            <li><span>PT</span> Sun, Jun 21 · 9:30 PM</li>
+            <li><span>ET</span> Mon, Jun 22 · 12:30 AM</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="event">
+        <div class="event__date">
+          <span class="event__day">Mon</span>
+          <span class="event__num">22</span>
+          <span class="event__mon">June</span>
+        </div>
+        <div class="event__body">
+          <h3 class="event__name">Sangeet</h3>
+          <p class="event__desc">An evening of song, dance, and joyful family performances.</p>
+          <ul class="event__times">
+            <li><span>IST</span> Mon, Jun 22 · 7:00 PM</li>
+            <li><span>PT</span> Mon, Jun 22 · 6:30 AM</li>
+            <li><span>ET</span> Mon, Jun 22 · 9:30 AM</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="event event--highlight">
+        <div class="event__date">
+          <span class="event__day">Wed</span>
+          <span class="event__num">24</span>
+          <span class="event__mon">June</span>
+        </div>
+        <div class="event__body">
+          <span class="event__badge">Muhurtam</span>
+          <h3 class="event__name">Jeelakarra Bellam</h3>
+          <p class="event__desc">
+            The most auspicious moment of the wedding — cumin and jaggery placed
+            together, symbolising an inseparable bond.
+            <a class="event__link" href="https://karishye.co/blogs/news/why-jeelakarra-bellam-is-placed-on-head-telugu-wedding" target="_blank" rel="noopener noreferrer">Read about its significance →</a>
+          </p>
+          <ul class="event__times">
+            <li><span>IST</span> Wed, Jun 24 · 7:44 AM</li>
+            <li><span>PT</span> Tue, Jun 23 · 7:14 PM</li>
+            <li><span>ET</span> Tue, Jun 23 · 10:14 PM</li>
+          </ul>
+        </div>
+      </li>
+
+      <li class="event">
+        <div class="event__date">
+          <span class="event__day">Fri</span>
+          <span class="event__num">26</span>
+          <span class="event__mon">June</span>
+        </div>
+        <div class="event__body">
+          <h3 class="event__name">Reception</h3>
+          <p class="event__desc">A grand evening to celebrate the newlyweds with family and friends.</p>
+          <ul class="event__times">
+            <li><span>IST</span> Fri, Jun 26 · 7:00 PM</li>
+            <li><span>PT</span> Fri, Jun 26 · 6:30 AM</li>
+            <li><span>ET</span> Fri, Jun 26 · 9:30 AM</li>
+          </ul>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <!-- Gallery (Memories) section temporarily hidden -->
+  <!--
+  <section class="section gallery" id="gallery">
+    <div class="section__head">
+      <p class="section__kicker">Our story in pictures</p>
+      <h2 class="section__title">Moments &amp; Memories</h2>
+      <p class="section__sub">A little collage of us, leading up to the big day.</p>
+    </div>
+
+    <div class="collage">
+      <figure class="collage__item collage__item--tall">
+        <img src="images/WhatsApp Image 2026-06-20 at 12.40.13.jpeg" alt="The couple" loading="lazy" />
+      </figure>
+      <figure class="collage__item">
+        <img src="images/WhatsApp Image 2026-06-20 at 12.40.14.jpeg" alt="The couple" loading="lazy" />
+      </figure>
+      <figure class="collage__item">
+        <img src="images/WhatsApp Image 2026-06-20 at 12.40.14 (1).jpeg" alt="The couple" loading="lazy" />
+      </figure>
+      <figure class="collage__item collage__item--wide">
+        <img src="images/WhatsApp Image 2026-06-20 at 12.40.14 (2).jpeg" alt="The couple" loading="lazy" />
+      </figure>
+      <figure class="collage__item">
+        <img src="images/WhatsApp Image 2026-06-20 at 12.40.14 (3).jpeg" alt="The couple" loading="lazy" />
+      </figure>
+    </div>
+  </section>
+  -->
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__divider" aria-hidden="true">
+      <span></span><svg viewBox="0 0 24 24" width="20" height="20"><path d="M12 2c1.5 3 4 4.5 7 5-3 .5-5.5 2-7 5-1.5-3-4-4.5-7-5 3-.5 5.5-2 7-5z" fill="currentColor"/></svg><span></span>
+    </div>
+    <p class="footer__telugu">శుభమస్తు</p>
+    <p class="footer__text">With love and gratitude · June 2026</p>
+  </footer>
+
+  <script src="js/main.js?v=3"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# macOS
+.DS_Store
+
+# Original full-resolution photo (16MB) — the optimized images/hero-feature.jpg is used on the site.
+# Kept locally but excluded from the repo to keep it lightweight.
+SASI1847.JPG
