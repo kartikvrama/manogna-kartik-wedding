@@ -4,7 +4,7 @@
 //  Leave as "" to keep the "coming soon" placeholder.
 //  Example: const LIVE_URL = "https://www.youtube.com/watch?v=XXXXXXXXXXX";
 // ============================================================
-const LIVE_URL = "";
+const LIVE_URL = "https://youtube.com/live/sxqQyX3NRec?feature=share";
 
 (function setupLivestream() {
   if (!LIVE_URL) return;
